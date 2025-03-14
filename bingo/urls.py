@@ -24,8 +24,6 @@ urlpatterns = [
     path('profile/update/', update_user_profile, name='update_user_profile'),
     path('check-developer-role/', check_developer_role, name='check_developer_role'),
     path('profile/', get_user_profile, name='get_user_profile'),
-    path('debug-tasks/', debug_user_tasks, name='debug_user_tasks'),
-    path('debug-media/', debug_media_urls, name='debug_media_urls'),
     path('force-award-pattern/', force_award_pattern, name='force_award_pattern'),
     path('reject-task/', reject_task, name='reject_task'),
 ]
